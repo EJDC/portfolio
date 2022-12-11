@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import MainContainer from './containers/MainContainer';
+
 
 function App() {
   return (
+    <>
     <div className="App">
-      <p>This site is under construction.</p>
+     <MainContainer />
     </div>
+    </>
   );
 }
 
