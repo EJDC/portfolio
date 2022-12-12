@@ -1,0 +1,16 @@
+ul {
+    font-size: small;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.skillssection {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

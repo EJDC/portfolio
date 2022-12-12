@@ -1,0 +1,17 @@
+.portfoliotitle {
+    text-align: center;
+    color: #1d3691;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+}
+
+img {
+    max-width:100%;
+    height: auto;
+    border: 2px solid #1d3691;
+    /* margin: 1rem; */
+}
+
+li {
+    word-wrap: break-word;
+}

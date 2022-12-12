@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import NavBar from "../components/NavBar";
+// import NavBar from "../components/NavBar.js";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Portfolio from "../components/Portfolio";
@@ -13,7 +13,8 @@ const MainContainer = () => {
 
   return (
     <>
-      <section><NavBar /></section>
+
+      {/* <section><NavBar /></section> */}
       <section><About/></section>
       <section><Skills /></section>
       <section><Portfolio /></section>

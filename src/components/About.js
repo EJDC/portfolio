@@ -10,32 +10,31 @@ const About = () => {
     align-items: center;
     align-content: center;
     justify-content: center;
-    /* margin: 3rem; */
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 18%;
     padding: 2rem;
   `;
 
   const MainSection = styled.div`
     border-radius: 1rem;
-    padding: 2rem;
     min-width: 15rem;
-    max-width: 60%;
+    max-width: 40%;
+    text-align: left;
+    padding-bottom: 3rem;
   `;
 
   const ProfileSection = styled.div`
     align-self: flex-end;
-    background-color: #8599C0;
+    background-color: #1d3691;
     /* color: #2843a2; */
     border-radius: 0.5rem;
     min-width: 15rem;
-    max-width: 15rem;
+    max-width: 10%;
     display: flex;
     flex-direction: column;
     padding: 2rem;
     align-items: center;
     list-style: none;
-    /* margin-left: 10%; */
   `;
 
   const ProfileImage = styled.img`
