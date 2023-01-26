@@ -47,7 +47,7 @@ const Portfolio = () => {
   const PortfolioImg = styled.img`
   // padding-left: 10vw;
   // padding-right: 10vw;
-  max-width: 900px ;
+  max-width: 700px ;
   max-height: 50vh;
   margin-bottom: 1rem;
 `;
@@ -76,7 +76,10 @@ const Portfolio = () => {
               <PortfolioImg src={require("./media/screenshot_1.png")} />
               <div>
                 <PortfolioParagraph>
-                  A full stack flask application to manage bookings for a gym. Built with Python, Flask, Jinja, Postgresql HTML5 & CSS3.
+                  A full stack flask application to manage bookings for a gym. 
+                </PortfolioParagraph>
+                <PortfolioParagraph>
+                Built with Python, Flask, Jinja, Postgresql HTML5 & CSS3.
                 </PortfolioParagraph>
                 <PortfolioParagraph>
                   The app had to be constructed over a 6 day period and so I
