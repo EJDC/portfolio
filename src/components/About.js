@@ -55,6 +55,7 @@ const About = () => {
             High-quality results delivered through collaborative problem
             solving, excellent communication, organisation and innovation.
           </p>
+          
         </MainSection>
         <ProfileSection>
           <ProfileImage src={require("./media/profile_image.jpg")} />
