@@ -47,6 +47,11 @@ const Skills = () => {
               <label for="javascript">Javascript</label>
             </li>
             <li>
+              <i id="java" class="devicon-java-plain"></i>
+               <br></br><br></br>
+              <label for="java">Java</label>
+            </li>
+            <li>
               <i id="html5" class="devicon-html5-plain"></i> 
               <br></br> <br></br>
               <label for="html5">HTML5 </label>
