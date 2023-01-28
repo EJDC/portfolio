@@ -96,19 +96,16 @@ const Portfolio = () => {
               <PortfolioImg id="marianaimg" src={require("./media/mariana.png")} />
               <div>
                 <PortfolioParagraph>
-                  A full stack flask application to manage bookings for a gym.
+                  A full stack Javascript educational app about the layers of the ocean and what lies beneath...
                 </PortfolioParagraph>
                 <PortfolioParagraph>
-                  Built with Python, Flask, Jinja, Postgresql HTML5 & CSS3.
+                  Built with Javascript, React, Express, MongoDB, HTML5 & CSS3.
                 </PortfolioParagraph>
                 <PortfolioParagraph>
-                  The app had to be constructed over a 6 day period and so I
-                  focussed my efforts on infrastructure and building for future
-                  extensibility, including implementing multiple many-to-many
-                  database relationships.
+                  Completed as a group project in Week 10 of CodeClan.
                 </PortfolioParagraph>
               </div>
-              <a href="https://github.com/EJDC/pyGym_Project" target="_blank">
+              <a href="https://github.com/EJDC/Mariana_Trench_Project" target="_blank">
                 Full ReadME and Video Walkthrough
               </a>
               <br></br>

@@ -3,6 +3,11 @@ h1 {
     margin-bottom: 1rem;
 }
 
+#iconlink {
+    color: white;
+    text-decoration: none;
+}
+
 i {
 font-size: 3rem;
 }
@@ -27,6 +32,14 @@ ul {
     /* font-size: x-large; */
 }
 
-li {
+.animate__animated.animate__backInDown.line1 {
+    animation-delay: 0.7s;
+}
 
+.animate__animated.animate__backInDown.line2 {
+    animation-delay: 1.7s;
+}
+
+.animate__animated.animate__fadeIn {
+    animation-delay: 3.2s;
 }

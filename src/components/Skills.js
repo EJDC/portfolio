@@ -171,20 +171,30 @@ const Skills = () => {
               <br></br> <br></br>
               <label for="github">VSCode</label>
             </li>
+            <li>
+              <i id="Int" class="devicon-intellij-plain"></i>
+              <br></br> <br></br>
+              <label for="github">Intellij</label>
+            </li>
           <li>
               <i id="trello" class="devicon-trello-plain"></i>
               <br></br> <br></br>
-              <label for="aws">Trello</label>
+              <label for="trello">Trello</label>
             </li>
             <li>
-              <i id="trello" class="devicon-figma-plain"></i>
+              <i id="figma" class="devicon-figma-plain"></i>
               <br></br> <br></br>
-              <label for="aws">Figma</label>
+              <label for="figma">Figma</label>
             </li>
             <li>
-              <i id="circleci" class="devicon-slack-plain"></i>
+              <i id="slack" class="devicon-slack-plain"></i>
               <br></br> <br></br>
-              <label for="circleci">Slack</label>
+              <label for="slack">Slack</label>
+            </li>
+            <li>
+              <i id="canva" class="devicon-canva-original"></i>
+              <br></br> <br></br>
+              <label for="slack">Canva</label>
             </li>
           </ul>
         </SkillArea>

@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import './About.css'          
+import './About.css' ;
+import 'animate.css';
 
 const About = () => {
   const AboutSection = styled.section`
@@ -46,24 +47,24 @@ const About = () => {
     <>
       <AboutSection>
         <MainSection>
-          <h1>Hello World!</h1>
-          <p>
+          <h1 className=" animate__animated animate__backInDown title" >Hello World!</h1>
+          <p className=" animate__animated animate__backInDown line1">
             My name is Ewan, and I am software developer based in Edinburgh,
             Scotland.
           </p>
-          <p>
+          <p className=" animate__animated animate__backInDown line2">
             High-quality results delivered through collaborative problem
             solving, excellent communication, organisation and innovation.
           </p>
           
         </MainSection>
-        <ProfileSection>
+        <ProfileSection className="animate__animated animate__fadeIn">
           <ProfileImage src={require("./media/profile_image.jpg")} />
           <h2>Ewan Connor</h2>
-          <p>ewansemail@gmail.com</p>
+          <p>ewanconnor@gmail.com</p>
           <ul>
-          <li><i class="devicon-linkedin-plain-wordmark"></i></li>
-          <li><i class="devicon-github-original-wordmark"></i></li>
+          <li><a id="iconlink" href="https://linkedin.com/in/ewan-connor" target="_blank"><i class="devicon-linkedin-plain-wordmark"></i></a></li>
+          <li><a id="iconlink" href="https://github.com/EJDC" target="_blank"><i class="devicon-github-original-wordmark"></i></a></li>
           </ul>
           
         </ProfileSection>
