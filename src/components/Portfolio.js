@@ -111,9 +111,27 @@ const Portfolio = () => {
               <br></br>
             </PortfolioPiece>
           </SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
+                   <SwiperSlide>
+            <PortfolioPiece>
+              <h3 className="projecttitle"> React Project - "Nobel Prize Browser"</h3>
+              <PortfolioImg id="nobelimg" src={require("./media/nobel.png")} />
+              <div>
+                <PortfolioParagraph>
+                  A client for the Nobel Prize API designed for mobile first.
+                </PortfolioParagraph>
+                <PortfolioParagraph>
+                  Built with Javascript, React, HTML5 & CSS3.
+                </PortfolioParagraph>
+                <PortfolioParagraph>
+                I worked on this app when studying at Codeclan, mainly over the festive break and in the first weeks of the new year, with an aim to keep up my JS/React skills, as well as getting some additional practice handling API Data.
+</PortfolioParagraph>
+              </div>
+              <a href="https://github.com/EJDC/nobel_prize_browser" target="_blank">
+                Full ReadME and Live Demo
+              </a>
+              <br></br>
+            </PortfolioPiece>
+          </SwiperSlide>
         </Swiper>
       </PortfolioBox>
     </>
